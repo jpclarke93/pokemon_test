@@ -63,8 +63,9 @@ p {
   right: 20%;
 }
 #vs {
-  position: relative;
-  right: 40%;
+  position: absolute;
+  top: 25%;
+  right: 50%;
 }
 #hp1 {
   color: red;
