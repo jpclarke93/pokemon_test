@@ -1,0 +1,85 @@
+body {
+  background: linear-gradient(to right bottom, whitesmoke, red);
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+table {
+  background: linear-gradient(
+    to right bottom,
+    rgba(235, 230, 230, 0.9),
+    rgba(122, 115, 115, 0.5)
+  );
+  border-radius: 2rem;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 80vh;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+th,
+td {
+  padding: 15px;
+  border: black;
+}
+.btn {
+  display: inline-table;
+  /* position: relative;
+  top: 30%;
+  left: 23%; */
+  /* position: absolute;
+  /* border: 29px; */
+  /* padding: 10px;
+  top: 11%; */
+  background: linear-gradient(to left bottom, rgb(182, 95, 95), rgb(223, 4, 4));
+  font-size: 15px;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p {
+  font-family: sans-serif;
+}
+#pk1 {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+}
+#pk2 {
+  position: absolute;
+  top: 40%;
+  right: 20%;
+}
+#vs {
+  position: relative;
+  right: 40%;
+}
+#hp1 {
+  color: red;
+  position: absolute;
+  top: 25%;
+  left: 23%;
+  font-size: 2pc;
+}
+#hp2 {
+  color: whitesmoke;
+  position: absolute;
+  top: 25%;
+  right: 23%;
+  font-size: 2pc;
+}
+h1 {
+  text-decoration: underline;
+}
